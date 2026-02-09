@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vita Nova - Enlaces</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #000000; /* Fondo negro total */
+            /* Efecto de manchas orgánicas como la imagen */
+            background-image: 
+                radial-gradient(circle at 10% 10%, #1a1a1a 0%, transparent 40%),
+                radial-gradient(circle at 90% 40%, #111111 0%, transparent 35%),
+                radial-gradient(circle at 50% 90%, #1a1a1a 0%, transparent 40%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        /* Logo superior circular */
+        .profile-container {
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 15px;
+            border: 2px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin: 10px 0;
+            letter-spacing: 0.5px;
+        }
+
+        .description {
+            font-size: 15px;
+            color: #ffffff;
+            margin-bottom: 20px;
+            line-height: 1.4;
+            padding: 0 10px;
+        }
+
+        /* Iconos circulares debajo del texto */
+        .social-icons-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .icon-circle {
+            width: 35px;
+            height: 35px;
+            filter: invert(1); /* Hace que iconos negros se vean blancos */
+            opacity: 0.9;
+        }
+
+        /* TARJETA DESTACADA (FACEBOOK) */
+        .featured-card {
+            background-color: white;
+            border-radius: 25px;
+            overflow: hidden;
+            margin-bottom: 16px;
+            display: block;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+
+        .featured-card:hover {
+            transform: scale(1.02);
+        }
+
+        .black-box {
+            background-color: black;
+            margin: 8px;
+            border-radius: 20px;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .black-box img {
+            max-width: 80%;
+            max-height: 70%;
+        }
+
+        .card-footer {
+            color: black;
+            padding: 12px 20px 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        /* BOTONES SIMPLES (INSTAGRAM / WHATSAPP) */
+        .link-button {
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            padding: 18px 20px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s;
+        }
+
+        .link-button:hover {
+            transform: scale(1.02);
+        }
+
+        .button-text {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .dots {
+            color: #a0a0a0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-container">
+            <img src="vita nova.png" alt="VN Logo" class="profile-img">
+        </div>
+        
+        <h1>Vita nova</h1>
+        <p class="description">✨ Descubre fragancias únicas con estilo y un mensaje especial.</p>
+
+        <div class="social-icons-row">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" class="icon-circle" alt="Instagram">
+            <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" class="icon-circle" alt="Facebook">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="icon-circle" alt="WhatsApp">
+        </div>
+
+        <a href="https://www.instagram.com/vita_nova04/" class="link-button">
+            <span class="button-text">Instagram</span>
+            <span class="dots">⋮</span>
+        </a>
+
+         <a href="https://www.facebook.com/share/17vnzA5TXG/" class="link-button">
+            <span class="button-text">Instagram</span>
+            <span class="dots">⋮</span>
+        </a>
+
+        <a href="https://wa.me/message/Q663HHAZFPW6J1" class="link-button">
+            <span class="button-text">WhatsApp</span>
+            <span class="dots">⋮</span>
+        </a>
+    </div>
+
+</body>
+</html>
